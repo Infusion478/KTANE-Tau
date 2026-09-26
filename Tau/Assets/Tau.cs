@@ -205,12 +205,9 @@ public class Tau : MonoBehaviour {
             yield break;
          }
       }
-      for (int i = 0; i < 5; i++) {
+      for (int i = 0; i < Commands.Length; i++) {
          Buttons[(int.Parse(Commands[i])) - 1].OnInteract();
          yield return new WaitForSeconds(.2f);
-         if (buttonsPressed.Count() == 5) {
-            yield break;
-         }
       }
    }
 
