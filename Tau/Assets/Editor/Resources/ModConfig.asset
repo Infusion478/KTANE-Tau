@@ -21,6 +21,6 @@ MonoBehaviour:
     want to make my first module a manual challenge.\n\nManual can be found at ktane.timwi.de
     or in the bundled manuals folder.\nSource code is at https://github.com/Infusion478/KTANE-Tau\n\nComes
     with Twitch Plays support."
-  version: 1.1
+  version: 1.1.1
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 57db4de7848d3534cbef5b49572e27dc, type: 3}
